@@ -2,7 +2,7 @@
 	<Import Project="../../build/version.props" />
 	<Import Project="../../build/releasenotes.props" />
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+		<TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
 		<Authors>EasyCaching Contributors</Authors>
 		<VersionPrefix>$(EasyCachingSTJsonPackageVersion)</VersionPrefix>
 		<VersionSuffix></VersionSuffix>
@@ -31,7 +31,7 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)'== 'netStandard2.0'">
-		<PackageReference Include="System.Text.Json" Version="6.0.3" />
+		<PackageReference Include="System.Text.Json" Version="8.0.5" />
 	</ItemGroup>
 
 	<ItemGroup>

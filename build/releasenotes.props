@@ -1,78 +1,76 @@
 <Project>
 	<PropertyGroup>
 		<EasyCachingCorePackageNotes>
-			1. Support IServiceProvider in setupActions
+			1. Upgrading .NET version
 		</EasyCachingCorePackageNotes>
 		<EasyCachingMemcachedPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingMemcachedPackageNotes>
 		<EasyCachingRedisPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingRedisPackageNotes>
 		<EasyCachingSQLitePackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingSQLitePackageNotes>
 		<EasyCachingInMemoryPackageNotes>
-			1. Upgrading dependencies.
-			2. Fix no check expires when get cache count
+			1. Upgrading .NET version
 		</EasyCachingInMemoryPackageNotes>
 		<EasyCachingHybridPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingHybridPackageNotes>
 		<EasyCachingAspectCorePackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingAspectCorePackageNotes>
 		<EasyCachingCastlePackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingCastlePackageNotes>
 		<EasyCachingResponseCachingPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingResponseCachingPackageNotes>
 		<EasyCachingJsonPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingJsonPackageNotes>
 		<EasyCachingMessagePackPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingMessagePackPackageNotes>
 		<EasyCachingProtobufPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingProtobufPackageNotes>
 		<EasyCachingCSRedisPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingCSRedisPackageNotes>
 		<EasyCachingCSRedisBusPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingCSRedisBusPackageNotes>
 		<EasyCachingRedisBusPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingRedisBusPackageNotes>
 		<EasyCachingRabbitBusPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingRabbitBusPackageNotes>
 		<EasyCachingKafkaBusPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingKafkaBusPackageNotes>
 		<EasyCachingZookeeperBusPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingZookeeperBusPackageNotes>
 		<EasyCachingDiskPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingDiskPackageNotes>
 		<EasyCachingLiteDBPackageNotes>
-			1. Upgrading dependencies.
-			2. Always use utc to compare the expiry
+			1. Upgrading .NET version.
 		</EasyCachingLiteDBPackageNotes>
 		<EasyCachingSTJsonPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingSTJsonPackageNotes>
 		<EasyCachingMemoryPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingMemoryPackageNotes>
 		<EasyCachingFaskKVPackageNotes>
-			1. Upgrading dependencies.
+			1. Upgrading .NET version.
 		</EasyCachingFaskKVPackageNotes>
 		<EasyCachingRabbitStreamBusPackageNotes>
-			1. Initial release.
+			1. Upgrading .NET version.
 		</EasyCachingRabbitStreamBusPackageNotes>
 	</PropertyGroup>
 </Project>

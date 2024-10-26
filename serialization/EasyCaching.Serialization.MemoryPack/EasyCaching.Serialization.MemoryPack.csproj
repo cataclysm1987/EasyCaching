@@ -3,7 +3,7 @@
 	<Import Project="../../build/version.props" />
 	<Import Project="../../build/releasenotes.props" />
 	<PropertyGroup>
-		<TargetFrameworks>net6.0</TargetFrameworks>
+		<TargetFrameworks>net8.0</TargetFrameworks>
 		<Owners>ncc;Amir Solhi</Owners>
 		<Authors>ncc;Amir Solhi</Authors>
 		<ImplicitUsings>enable</ImplicitUsings>
