@@ -91,8 +91,30 @@
             }
         }
 
-        public bool TryGetValue<T>(string key, out T result){
+        public bool TryGetValue<T>(string key, out T result)
+        {
+            ArgumentCheck.NotNullOrWhiteSpace(key, nameof(key));
+            if (!_memory.TryGetValue(key, out var cacheEntry))
+            {
+                return false;
+            }
 
+            if (cacheEntry.ExpiresAt < SystemClock.UtcNow)
+            {
+                RemoveExpiredKey(key);
+                return false;
+            }
+            try
+            {
+                var value = cacheEntry.GetValue<T>(_options.EnableReadDeepClone);
+                result = value is T ? value : null;
+                return value is T;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"some error herer, message = {ex.Message}");
+                return false;
+            }
         }
 
         public object Get(string key)
