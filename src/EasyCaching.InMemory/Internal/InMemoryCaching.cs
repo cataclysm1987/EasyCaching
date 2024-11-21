@@ -91,6 +91,10 @@
             }
         }
 
+        public bool TryGetValue<T>(string key, out T result){
+
+        }
+
         public object Get(string key)
         {
             ArgumentCheck.NotNullOrWhiteSpace(key, nameof(key));
