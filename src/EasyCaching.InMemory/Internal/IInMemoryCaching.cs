@@ -9,6 +9,7 @@
         string ProviderName { get; }
         int GetCount(string prefix = "");
         CacheValue<T> Get<T>(string key);
+        bool TryGetValue<T>(string key);
 
         object Get(string key);
         IDictionary<string, CacheValue<T>> GetByPrefix<T>(string key);
